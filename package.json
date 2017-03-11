@@ -13,7 +13,7 @@
     "build": "webpack --config webpack.config.js",
     "build:global": "NODE_ENV=production DOMAIN_ENV=global npm run build && cp -R ./app/build/ ./",
     "build:china": " NODE_ENV=production DOMAIN_ENV=china  npm run build",
-    "start": "http-server ./ -p 8081",
+    "start": "http-server app/build/ -p 8081",
     "watch": "webpack-dev-server",
     "watch:global": "NODE_ENV=development DOMAIN_ENV=global npm run watch",
     "watch:china": " NODE_ENV=development DOMAIN_ENV=china  npm run watch",
