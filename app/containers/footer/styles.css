@@ -1,0 +1,14 @@
+.base {
+  width: 100%;
+  background: #000;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.base p {
+  text-align: center;
+}

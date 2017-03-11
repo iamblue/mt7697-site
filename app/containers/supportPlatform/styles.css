@@ -1,0 +1,59 @@
+.content {
+  width: 936px;
+  margin: 50px auto;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+  margin: 9px;
+  justify-content: center;
+}
+
+.cardContent {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin: 0 10px;
+}
+
+.arduino {
+  width: 100px;
+}
+
+.linkit {
+  width: 100px;
+}
+
+.zephyr {
+  width: 100px;
+}
+
+.js {
+  width: 100px;
+}

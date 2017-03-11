@@ -1,0 +1,56 @@
+.content {
+  width: 936px;
+  margin: 50px auto;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+  margin: 9px;
+  justify-content: center;
+}
+
+.cardContent {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin: 0 10px;
+}
+
+.seeed {
+  width: 150px;
+  height: 150px;
+}
+
+.wot {
+  width: 150px;
+  height: 120px;
+}
+
+.WRTnode {
+  width: 150px;
+  height: 40px;
+}
