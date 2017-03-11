@@ -18,6 +18,17 @@
   margin: 9px 20px;
 }
 
+@media only screen and (max-width: 936px) {
+  .content {
+    width: 100%;
+  }
+
+  .content ul{
+    display: none;
+  }
+}
+
+
 .logo {
   height: 30px;
   /*border: 1px solid #fff;*/
