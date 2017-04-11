@@ -19,20 +19,34 @@ const CloudService = ({
       <h2>{t('ioTServiceSolution')}</h2>
       <div className={styles.container}>
         <Card className={styles.card}>
-          <p className={styles.cardTitle}>Public cloud</p>
+          <p className={styles.cardTitle}>公有雲</p>
           <div className={styles.cardContent}>
           <img src={MCS} className={styles.mcs}/>
           </div>
-          <Button className={styles.button}>
+          <Button
+            className={styles.button}
+            onClick={
+              () => {
+                location.href = 'https://mcs.mediatek.com';
+              }
+            }
+          >
             SDK 詳情
           </Button>
         </Card>
         <Card className={styles.card}>
-          <p className={styles.cardTitle}>Private cloud</p>
+          <p className={styles.cardTitle}>私有雲</p>
           <div className={styles.cardContent}>
           <img src={MCS} className={styles.mcs}/>
           </div>
-          <Button className={styles.button}>
+          <Button
+            className={styles.button}
+            onClick={
+              () => {
+                location.href = 'https://dariachen1.gitbooks.io/mcs-lite-introduction/content/';
+              }
+            }
+          >
             SDK 詳情
           </Button>
         </Card>

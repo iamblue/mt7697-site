@@ -63,3 +63,13 @@
 .js {
   width: 100px;
 }
+
+.physical {
+  width: 180px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ibeacon {
+  width: 180px;
+}
